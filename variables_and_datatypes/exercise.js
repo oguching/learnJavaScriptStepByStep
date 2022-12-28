@@ -27,5 +27,5 @@ const d = '30';
 const result = Math.ceil((Number(a) + Number(b) + Number(c) + Number(d) / 4));
 console.log(result) // 17
 
-let randomDieRollOutcome = (Math.floor(Math.random() * 6) + 1);
+let randomDieRollOutcome = Math.floor(Math.random() * 6) + 1;
 console.log(randomDieRollOutcome)
